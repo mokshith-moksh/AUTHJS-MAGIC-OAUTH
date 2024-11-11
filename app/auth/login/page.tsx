@@ -1,13 +1,14 @@
-"use client";
-
 import { SignInMagic } from "@/components/sign-in-magic";
 import { Social } from "@/components/Social";
+import React from "react";
 
-export default function Home() {
+const Page = () => {
   return (
     <div>
       <Social />
       <SignInMagic />
     </div>
   );
-}
+};
+
+export default Page;
